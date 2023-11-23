@@ -1,0 +1,31 @@
+div p:nth-child(5) {
+  background-color: darkblue;
+  color: white;
+}
+/* p:nth-last-child(1n) {
+  background-color: darkred;
+  color: white;
+} */
+
+::placeholder {
+  color: red;
+}
+input:read-only {
+  background-color: orangered;
+}
+input:read-write {
+  background-color: blue;
+}
+input:required {
+  background-color: chartreuse;
+}
+input:valid {
+  background-color: pink;
+}
+input:out-of-range {
+  border: 2px solid darkred;
+}
+:target {
+  border: 2px solid red;
+  background-color: wheat;
+}

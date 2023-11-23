@@ -1,0 +1,71 @@
+.mother_div {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  /* padding-left: 2%;
+  padding-right: 2%; */
+  /* border: 4px solid white; */
+  background-image: url(images/dakblue.webp);
+  background-size: contain;
+}
+.first_div {
+  width: 63%;
+  height: inherit;
+}
+
+/* #first_section {
+  height: 80px;
+  width: 70%;
+  background-color: #00072d;
+  border-radius: 20px;
+}
+#first_section .first_img {
+  width: 10%;
+  height: 100%;
+  float: left;
+  line-height: 60px;
+  margin: 0 0 0 30px;
+  font-size: 20px;
+  color: white;
+}
+#first_section .navbar {
+  width: 70%;
+  height: 100%;
+  float: right;
+}
+#first_section .navbar a {
+  display: inline-block;
+  line-height: 65px;
+  margin: 0 0 0 30px;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+#first_section .navbar .home {
+  color: #123499;
+}
+.first_main {
+  width: 70%;
+  height: 300px;
+  background-color: #00072d;
+  padding-top: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.main_first {
+  width: 70%;
+  margin: 0 0 0 30px;
+}
+.main_second {
+  width: 30%;
+  margin: 0 0 0 30px;
+} */
+
+.second_div {
+  width: 33%;
+  height: inherit;
+  background-color: darkred;
+  border-radius: 20px;
+}

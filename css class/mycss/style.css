@@ -1,0 +1,77 @@
+/* * {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+.first_paragraph {
+  color: white;
+  background-color: darkred;
+}
+#second_paragraph {
+  color: white;
+  background-color: darkblue;
+}
+.third_paragraph {
+  color: aqua;
+  background-color: blueviolet;
+}
+.first_paragraph,
+.third_paragraph {
+  font-size: 20px;
+}
+h2 {
+  color: white;
+  background-color: aqua;
+}
+div p {
+  color: skyblue;
+  background-color: white;
+}
+.first_div p {
+  background-color: darkgreen;
+  color: white;
+}
+.second_div > p {
+  background-color: darkorange;
+  color: darkgreen;
+}
+div + p {
+  background-color: slateblue;
+  color: floralwhite;
+} */
+/* p ~ ul {
+  background-color: maroon;
+}
+p::before{
+    content: "Read this -";
+    background-color: blue;
+}
+p::after{
+    content: "Done reading -";
+    background-color: darkviolet;
+} */
+/*
+p::first-letter {
+  color: darkred;
+}
+p::first-line {
+  color: dodgerblue;
+} 
+a:hover{
+    background-color: rebeccapurple;
+}*/
+/* p:lang(it) {
+  color: purple;
+} */
+/* div p:last-of-type {
+  background-color: saddlebrown;
+}
+p:last-child {
+  background-color: darkorange;
+}
+p:first-child {
+  background-color: pink;
+}
+div p:first-of-type {
+  background-color: darkgreen;
+} */

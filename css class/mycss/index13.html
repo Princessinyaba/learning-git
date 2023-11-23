@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      overflow: scroll;
+      overflow-x: hidden;
+    }
+    .container {
+      position: relative;
+      background-color: brown;
+      height: 500px;
+    }
+    .first_box {
+      position: relative;
+      background-color: red;
+      height: 100px;
+      width: 200px;
+      z-index: 5;
+    }
+    .second_box {
+      position: absolute;
+      background-color: blue;
+      width: 200px;
+      height: 50px;
+    }
+    .third_box {
+      position: absolute;
+      background-color: yellow;
+      width: 200px;
+      height: 50px;
+      left: 100px;
+      top: 0px;
+      z-index: 13;
+    }
+    h1 {
+      max-width: 500px;
+      background-color: purple;
+      line-height: 5.5;
+    }
+  </style>
+  <body>
+    <h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+      aspernatur quisquam. Nam suscipit, inventore odio quos consequuntur
+      deleniti ipsam adipisci natus praesentium ab soluta. Nesciunt molestias et
+      est iusto itaque.
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+      aspernatur quisquam. Nam suscipit, inventore odio quos consequuntur
+      deleniti ipsam adipisci natus praesentium ab soluta. Nesciunt molestias et
+      est iusto itaque.
+    </p>
+    <div class="container">
+      <div class="first_box">first box</div>
+      <div class="second_box">second box</div>
+      <div class="third_box">third box</div>
+    </div>
+  </body>
+</html>

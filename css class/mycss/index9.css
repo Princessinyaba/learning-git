@@ -1,0 +1,248 @@
+/* CSS RESET */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
+  8. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* MY CSS CODE */
+#first_section {
+  width: 100%;
+  height: auto;
+}
+
+.first_img {
+  max-width: 100%;
+  line-height: 2;
+  background-color: hsla(240, 50%, 50%, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+.section_ffff {
+  width: 50%;
+  margin-left: 10%;
+}
+.first_img h2 {
+  color: white;
+}
+.first_img h4 {
+  color: white;
+  font-weight: lighter;
+}
+.first_img a {
+  color: darkblue;
+}
+.section_section {
+  width: 50%;
+  height: 100px;
+  margin-left: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.section_section img {
+  width: 20px;
+  height: 20px;
+}
+.section_section h3 {
+  color: white;
+}
+.section_section h5 {
+  color: white;
+}
+
+.navbar {
+  max-width: 100%;
+  line-height: 3;
+  background-color: hsl(ff, ff, ff);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+  margin-block-start: 15px;
+  font-weight: bolder;
+  border-left: 2px solid black;
+}
+.second_img {
+  width: 100%;
+  min-height: fit-content;
+  text-align: center;
+  line-height: 2;
+  background-color: hsla(240, 50%, 50%, 1);
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-inline-start: 30%;
+  padding-inline-end: 30%;
+}
+.second_img a {
+  color: white;
+  font-weight: lighter;
+}
+.second_img p {
+  color: white;
+}
+.second_img h1 {
+  color: white;
+}
+
+#main_section {
+  max-width: 100%;
+  height: 1200px;
+  padding: 10px;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space space-between;
+}
+.section_one {
+  max-width: 60%;
+  height: inherit;
+  display: flex;
+  padding: 2%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first_sub {
+  max-width: 100%;
+  height: 150%;
+}
+
+.second_sub {
+  max-width: 100%;
+  height: 150%;
+}
+
+.section_two {
+  max-width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.section_first {
+  max-width: 100%;
+  height: 735px;
+  margin: 5%;
+  background-color: white;
+}
+.images_img {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+}
+.images_img img {
+  width: 130px;
+  height: 50px;
+  margin: 30px;
+  display: flex;
+}
+.section_second,
+p {
+  color: black;
+}
+.special {
+  font-size: larger;
+  font-weight: bolder;
+  margin-left: 40%;
+}
+.section_first ul li {
+  color: darkblue;
+  text-decoration: underline;
+}
+.section_second {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  margin: 5%;
+  flex-direction: column;
+  background-color: gray;
+}
+.section_second .read {
+  background-color: darkgray;
+  margin-left: 80%;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+#foot {
+  max-width: 100%;
+  line-height: 5;
+  background-color: darkgray;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+.terms {
+  max-width: 50%;
+  margin-left: 10%;
+  color: darkblue;
+  text-decoration: underline;
+}
+.your {
+  max-width: 50%;
+  margin-left: 30%;
+}

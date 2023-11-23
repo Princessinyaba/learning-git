@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    html {
+      font-size: 10px;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    @font-face {
+      font-family: Agbalumo;
+      src: url(fonts/Agbalumo-Regular.ttf);
+    }
+    .pos_mar {
+      width: 100%;
+      height: 100px;
+      background-color: red;
+      font-size: 10px;
+    }
+    .first_child {
+      width: 50%;
+      height: 100px;
+      background-color: lightblue;
+      float: left;
+      font-size: 2em;
+      font-family: "Agbalumo";
+      src: url(fonts/Agbalumo-Regular.ttf);
+      /* padding: 5%;
+          margin-left: 15px; */
+    }
+    .pos_mar2 {
+      width: 100vw;
+      height: 400px;
+      background-color: blue;
+    }
+    .second_child {
+      width: 50vw;
+      height: 100px;
+      background-color: burlywood;
+      float: right;
+      font-size: 3rem;
+      /* margin-left: 5vw; */
+    }
+    .fit_c {
+      /* width: fit-content;
+      width: max-content;
+      width: min-content; */
+      width: 200px;
+      margin-inline-end: 50px;
+      /* margin-block-start: 50px;
+      margin-left: 10px;
+      writing-mode: vertical-lr; */
+      background-color: yellow;
+      margin-bottom: 1em;
+    }
+    h1 {
+      margin-bottom: 50px;
+      background-color: red;
+    }
+    h2 {
+      margin-top: 20px;
+      background-color: lightgreen;
+    }
+    /* CSS NESTING(SASS) 
+    footer{
+      div{
+        p{
+          margin: 2em;
+        }
+      }
+    }*/
+  </style>
+  <body>
+    <div class="pos_mar">
+      <div class="first_child">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus odio
+        earum veritatis, reiciendis quia vitae tempore aliquid nemo id ab in
+        enim inventore ducimus accusantium. Eius similique iusto laborum animi?
+      </div>
+      <div class="second_child">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+        labore, placeat velit enim natus a voluptatum doloribus sint quibusdam
+        cupiditate nesciunt ab sunt, porro cum ipsam facere eveniet? Laboriosam,
+        veritatis.
+      </div>
+    </div>
+    <div class="pos_mar2">
+      <div class="fit_c">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+        officiis, dolorem perspiciatis fugiat consequuntur temporibus atque illo
+        molestiae, quo similique eveniet ex corrupti natus magnam adipisci
+        tenetur debitis voluptas facere.
+      </div>
+      <div class="fit_c">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+        officiis, dolorem perspiciatis fugiat consequuntur temporibus atque illo
+        molestiae, quo similique eveniet ex corrupti natus magnam adipisci
+        tenetur debitis voluptas facere.
+      </div>
+      <div class="fit_c">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+        officiis, dolorem perspiciatis fugiat consequuntur temporibus atque illo
+        molestiae, quo similique eveniet ex corrupti natus magnam adipisci
+        tenetur debitis voluptas facere.
+      </div>
+    </div>
+    <h1>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+      officiis, dolorem perspiciatis fugiat consequuntur temporibus atque illo
+      molestiae, quo similique eveniet ex corrupti natus magnam adipisci tenetur
+      debitis voluptas facere.
+    </h1>
+    <h2>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+      officiis, dolorem perspiciatis fugiat consequuntur temporibus atque illo
+      molestiae, quo similique eveniet ex corrupti natus magnam adipisci tenetur
+      debitis voluptas facere.
+    </h2>
+  </body>
+</html>
